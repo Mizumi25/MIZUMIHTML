@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+<link 
+  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+  <!---FAVICON--->
+<link rel="icon" href="/mats/profile.jpg" />
+
+
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <!---Loader--->
+  <div class="loader-container">
+    <div class="loader"></div>
+  </div>
+  
+  <!---All Contents--->
+  <main>
+        <!---Header--->
+        <nav>
+          <div class="leftnav">
+            <h1>Mizu</h1>
+          </div>
+          <div class="rightnav">
+            <div id="icon" class="loader">
+              <span class="stroke"></span>
+              <span class="stroke"></span>
+              <span class="stroke"></span>
+            </div>
+            <audio src="mats/Beat.mp3" id="mySong" loop preload autoplay></audio>
+            <button>English</button>
+          </div>
+        </nav>
+        <!---SocialIcons-->
+        <div class="stick_follow_icon">
+          <ul>
+              <li>
+                <a href={socialprofils.twitter}>
+                  <i class="fa fa-brands fa-twitter fa-2x"></i>
+                </a>
+              </li>
+              <li>
+                <a href={socialprofils.facebook}>
+                  <i class="fa fa-brands fa-facebook fa-2x"></i>
+                </a>
+              </li>
+              <li>
+                <a href={socialprofils.instagram}>
+                  <i class="fa fa-brands fa-instagram fa-2x"></i>
+                </a>
+              </li>
+              <li>
+                <a href={socialprofils.youtube}>
+                  <i class="fa fa-brands fa-youtube fa-2x"></i>
+                </a>
+              </li>
+          </ul>
+          <p>ついて来て下さい</p>
+        </div>
+    <home>
+        <!---Home--->
+        <section id="Home">
+            <video class="background-hero" src="mats/back.mp4" muted autoplay loop></video>
+        <div id="section1" class="section">
+            <div id="container">
+              <h1 id="text1"></h1>
+              <h1 id="text2"></h1>
+             <div class="box box1"> </div>
+            <div class="box box2"> </div>
+            <div class="box box3"> </div>
+            <div class="box box5"> </div>
+          </div>
+          <svg id="filters">
+              <defs>
+                  <filter id="threshold">
+                      <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                            0 1 0 0 0
+                            0 0 1 0 0
+                            0 0 0 255 -140" />
+                  </filter>
+              </defs>
+          </svg>
+            <a href="#" class="button type--A" onmouseover="myMoveFunction()">
+              <div class="button__line"></div>
+              <div class="button__line"></div>
+              <span class="button__text">HIRE ME</span>
+              <div class="button__drow1"></div>
+              <div class="button__drow2"></div>
+            </a>
+        </div>
+        
+        <div id="section2" class="section">
+            <div id="content">
+                <div class="nn">
+                    <div class="wrapper">
+                        <img src="mats/profile.jpg" alt="profile" />
+                    </div>
+                </div>
+            <h2>はじめまして、自称アーティストのミズミカイトです。</h2>
+            <hr /><p>I am James Rafty Libago, 20 years old, I am currently residing at Lunao Gingoog City</p>
+            <h2>モバイルデバイスを使用してイラストやポートレートを描きます。</h2>
+            <hr /><p>I'm currently a student, however in my free time I draw digitally using using IbisPaintX and media</p>
+            <h2>仲良くしましょう。</h2>
+            <hr /><p>It's nice to know you</p>
+            
+            
+          <a href="#service" class="scroll-down">
+            <img src="./mats/scroll-down.svg" width="40" height="66" alt="mouse scroll">
+          </a>
+            
+            </div>
+        </div>
+        
+        <div id="section3" class="section">
+          <div id="content">
+            <div class="title">
+              <h2 class="">Projects</h2>
+              <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <line class="path" x1="0" y1="50" x2="100" y2="50" stroke="black" />
+              </svg>
+            </div>
+          <ol type="number">
+            <li>I am the first title</li>
+            <li>I am the second title</li>
+            <li>I am the third title</li>
+            <li>I am the fourth title</li>
+            <li>I am the fifth title</li>
+          </ol>
+        </div>
+        </div>
+        
+        <div id="section4" class="section">
+            <div id="content">
+              <div class="title">
+                <h2 class="">Brief Intro</h2>
+                <hr />
+              </div>
+              <div class="description">
+                <p>エンターテインメントとしての質の高さと、社会的な意義の両面を併せ持つ映像を手掛けるEXIT FILM。
+論理的思考に基づくシナリオメイキングとシネマティックな演出をコアとして、クライアントワークや作品など多岐にわたる映像を制作しています。
+また映像分野で確立したフローを活かし、課題当事者との共創型プログラムを開発。
+映像制作をワンストップで行うEXIT FILMならではの、すべてのプロセスにおける付加価値をサービスとして提供しています。</p>
+<hr />
+<p>EXIT FILM is a full-service film production company that pursues both the content quality and social impact. Using our cinematic filmmaking and storytelling profession, we push the limits of an independent production house and facilitate various projects that expand the possibilities of film.
+
+We have also developed an original co-creative filmmaking program, which involves the parties concerned in the filmmaking process. In addition to the final film, we offer a learning and empowering experience to corporates, educational organizations, and nonprofits.</p>
+              </div>
+            </div>
+            
+        </div>
+        
+        <div id="section5" class="section">
+      5
+        </div>
+        
+        <div id="section6" class="section">
+            <div onclick="topFunction()" class="scroll-to-top">
+                  <i class="fa fa-solid fa-angle-up fa-3x"></i>
+            </div>
+            <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>0%</a>
+        </div>
+        </section>
+    </home>
+    
+    
+    <foot></foot>
+    
+    
+
+
+  </main>
+
+    <script src="func/main.js"></script>
+</body>
+</html>
